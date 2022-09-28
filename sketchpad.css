@@ -11,3 +11,13 @@
 	float: left;
 	padding-top: 100%;
 }
+
+.hover {
+    background-color: grey;
+    transition: 1s;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    font-size: 1.5em;
+}
