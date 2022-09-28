@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+}
+
+.container > div {
+    border: solid 1px black;
+    width: 100%;
+}
+.container > div:before {
+    content: "";
+	float: left;
+	padding-top: 100%;
+}
